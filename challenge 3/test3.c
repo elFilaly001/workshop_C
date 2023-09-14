@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main (){
-    int a,b;
+    float a,b;
 
     printf("inserer votre premier nombre :");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("inserer votre deuxieme nombre :");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     printf("\n");
-    printf("addition : %d \n", a+b);
-    printf("soustraction : %d \n" , a-b);
-    printf("multiplication : %d \n" , a*b);
-    printf("division : %d \n" , a/b);
-    printf("modulo : %d \n" , a%b);
+    printf("addition : %f \n", a+b);
+    printf("soustraction : %f \n" , a-b);
+    printf("multiplication : %f \n" , a*b);
+    printf("division : %f \n" , a/b);
+
 
     return 0;
 }
